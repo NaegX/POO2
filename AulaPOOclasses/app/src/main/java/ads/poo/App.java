@@ -7,21 +7,37 @@ public class App {
 
     public static void main(String[] args) {
 
-        Carro f = new Carro();
+//        Carro f = new Carro();
+//
+//        f.definirVelocidadeAtual(10);
+//        f.definirCor("azul");
+//        f.definirModelo("Fusca");
+//
+//        Carro g = new Carro();
+//
+//        g.definirVelocidadeAtual(10);
+//        g.definirCor("azul");
+//        g.definirModelo("Gol");
+//
+//        System.out.println(f.obterModelo() + " " + f.obterCor() + " está a " + f.obterVelocidade() + " km/h");
+//
+//        System.out.println(g.obterModelo() + " " + g.obterCor() + " está a " + g.obterVelocidade() + " km/h");
 
-        f.definirVelocidadeAtual(10);
-        f.definirCor("azul");
-        f.definirModelo("Fusca");
 
-        Carro g = new Carro();
+        Caneta c = new Caneta("Vermelha" , 98);
 
-        g.definirVelocidadeAtual(10);
-        g.definirCor("azul");
-        g.definirModelo("Gol");
+        System.out.println(c);
+        System.out.println(c.desenhar(98));
+        System.out.println(c.desenhar(-15));
 
-        System.out.println(f.obterModelo() + " " + f.obterCor() + " está a " + f.obterVelocidade() + " km/h");
 
-        System.out.println(g.obterModelo() + " " + g.obterCor() + " está a " + g.obterVelocidade() + " km/h");
+
+        Contador cont = new Contador();
+
+        cont.setValorAtual(5);
+        System.out.println(cont.getValorAtual());
+        cont.incrementarValor();
+        System.out.println(cont.getValorAtual());
 
     }
 }
