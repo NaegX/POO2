@@ -24,20 +24,27 @@ public class App {
 //        System.out.println(g.obterModelo() + " " + g.obterCor() + " está a " + g.obterVelocidade() + " km/h");
 
 
-        Caneta c = new Caneta("Vermelha" , 98);
+//        Caneta c = new Caneta("Vermelha" , 98);
+//
+//        System.out.println(c);
+//        System.out.println(c.desenhar(98));
+//        System.out.println(c.desenhar(-15));
+//
+//
+//
+//        Contador cont = new Contador();
+//
+//        cont.setValorAtual(5);
+//        System.out.println(cont.getValorAtual());
+//        cont.incrementarValor();
+//        System.out.println(cont.getValorAtual());
 
-        System.out.println(c);
-        System.out.println(c.desenhar(98));
-        System.out.println(c.desenhar(-15));
 
+        //Carro car = new Carro("Astra","Vermelho", 0 , 150);
 
+        Estudante est = new Estudante("Gean" , 20240105 , 12635 );
+        Estudante esst = new Estudante("GeanL" , 1215 , 1335 );
 
-        Contador cont = new Contador();
-
-        cont.setValorAtual(5);
-        System.out.println(cont.getValorAtual());
-        cont.incrementarValor();
-        System.out.println(cont.getValorAtual());
-
+        System.out.println(esst.getTotal());
     }
 }
